@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "AI Music Skipper",
-    "version": "2.1",
-    "description": "Automatically skips AI-generated music videos on YouTube. Configurable skip lists.",
+    "name": "AI Skipper",
+    "version": "2.8.3",
+    "description": "Automatically skips AI-generated content on YouTube.",
     "permissions": [
         "storage",
         "scripting",
