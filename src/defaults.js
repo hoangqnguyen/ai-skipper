@@ -19,4 +19,4 @@ export const DEFAULT_REGEX = [
   "\\(AI Version\\)"    // Matches: (AI Version)
 ];
 
-export const DEFAULT_CHECK_INTERVAL = 1000; // ms
+export const DEFAULT_CHECK_INTERVAL = 500; // ms

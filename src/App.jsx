@@ -122,28 +122,28 @@ export default function App() {
                 <Switch checked={enabled} onCheckedChange={saveEnabled} />
             </div>
 
-            <div className="flex gap-2 mb-4 border-b">
+            <div className="flex mb-4 border-b">
                 <button
                     onClick={() => setActiveTab("general")}
-                    className={`pb-2 text-sm font-medium transition-colors ${activeTab === "general" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
+                    className={`flex-1 pb-2 text-sm font-medium transition-colors text-center ${activeTab === "general" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
                 >
                     General
                 </button>
                 <button
                     onClick={() => setActiveTab("keywords")}
-                    className={`pb-2 text-sm font-medium transition-colors ${activeTab === "keywords" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
+                    className={`flex-1 pb-2 text-sm font-medium transition-colors text-center ${activeTab === "keywords" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
                 >
                     Keywords
                 </button>
                 <button
                     onClick={() => setActiveTab("channels")}
-                    className={`pb-2 text-sm font-medium transition-colors ${activeTab === "channels" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
+                    className={`flex-1 pb-2 text-sm font-medium transition-colors text-center ${activeTab === "channels" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
                 >
                     Channels
                 </button>
                 <button
                     onClick={() => setActiveTab("regex")}
-                    className={`pb-2 text-sm font-medium transition-colors ${activeTab === "regex" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
+                    className={`flex-1 pb-2 text-sm font-medium transition-colors text-center ${activeTab === "regex" ? "border-b-2 border-primary text-primary" : "text-muted-foreground hover:text-foreground"}`}
                 >
                     Regex
                 </button>
