@@ -117,7 +117,7 @@ export default function App() {
         <div className="w-[350px] p-4 bg-background min-h-[500px] text-foreground">
             <div className="flex items-center justify-between mb-6">
                 <h1 className="text-xl font-bold flex items-center gap-2">
-                    <Play className="fill-primary text-primary" /> AI Skipper
+                    <img src="icons/icon48.png" className="w-8 h-8 rounded-sm" alt="Logo" /> AI Skipper
                 </h1>
                 <Switch checked={enabled} onCheckedChange={saveEnabled} />
             </div>
