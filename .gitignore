@@ -4,3 +4,4 @@ dist/
 *.local
 .gemini/
 .agent/
+ai-skipper-v*.zip

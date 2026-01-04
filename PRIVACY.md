@@ -1,6 +1,6 @@
 # Privacy Policy for AI Skipper
 
-Last updated: January 03, 2026
+Last updated: January 04, 2026
 
 AI Skipper ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information in relation to the AI Skipper Chrome Extension.
 
@@ -18,7 +18,6 @@ Since we do not collect any data, we do not share any data with third parties.
 ## 4. Permissions
 The extension requests the following permissions for the sole purpose of functionality:
 - `storage`: To save your preferences locally.
-- `scripting` & `activeTab`: To detect video info and perform skips on YouTube.
 - `host permissions (*://*.youtube.com/*)`: To function on the YouTube website.
 
 ## 5. Contact
